@@ -8,7 +8,7 @@
 </head>
 <body class="bg-[#111111]">
     <div class="containerDiv flex justify-center items-center w-full h-screen p-3 lg:p-12">
-        <div class="w-full lg:w-[37%] rounded-2xl">
+        <div class="w-full lg:w-[33%] rounded-2xl">
             <div class="h-[170px] bg-[url('../assets/img/wavydawgs_banner_3.jpg')] bg-cover bg-center rounded-t-2xl">
             </div>
             <div class="relative top-[-1.5rem] bg-[#3e046c] h-full rounded-t-[1.35rem] rounded-b-2xl">
