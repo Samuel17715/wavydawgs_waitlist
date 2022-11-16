@@ -15,21 +15,21 @@ function sendEmail($emailAddress, $subject, $body) {
     try {
 
         //Server settings
-        //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-        $mail->SMTPDebug = 0;                      //Enable verbose debug output
-        $mail->isSMTP();                                            //Send using SMTP
-        $mail->Host       = 'frenslisted.io';                     //Set the SMTP server to send through
-        $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        $mail->Username   = 'waitlist@frenslisted.io';                     //SMTP username
-        $mail->Password   = 'waitlist@frenslisted.io';                               //SMTP password
+        //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+        $mail->SMTPDebug = 0;                      // Enable verbose debug output
+        $mail->isSMTP();                                            // Send using SMTP
+        $mail->Host       = 'wavydawgs.com';                     // Set the SMTP server to send through
+        $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+        $mail->Username   = 'no-reply@wavydawgs.com';                     // SMTP username
+        $mail->Password   = 'MOhTr#4kd?tb';                               //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         $mail->Port       = 465;    
         $mail->Priority = 1; // Important                                //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
         //Recipients
-        $mail->setFrom('waitlist@frenslisted.io', 'Frenslisted');
+        $mail->setFrom('no-reply@wavydawgs.com', 'Wavydawgs');
         $mail->addAddress($emailAddress, '');     //Add a recipient
-        $mail->addReplyTo('waitlist@frenslisted.io', 'Frenslisted');
+        $mail->addReplyTo('no-reply@wavydawgs.com', 'Wavydawgs');
         //$mail->addCC('cc@example.com');
         //$mail->addBCC('bcc@example.com');
 
