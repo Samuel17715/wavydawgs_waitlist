@@ -22,7 +22,7 @@ require_once('server.php');
 $dbhost = '159.89.90.119';
 $dbname = 'wavydawgs_waitlist';
 $dbuser = 'admin';
-$dbpass = '95e5532b2f9faabe790786fa0bf2b29ae8ddb0abc0ce7613';
+$dbpass = 'e720860c4ec340ac4b43ae6e5b793e150d1b406628370f16';
 
 // Creating a object of PDODatabaseConnection Class
 $pdo = new serverProcessing($dbhost, $dbname, $dbuser, $dbpass);
