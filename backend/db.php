@@ -19,7 +19,7 @@ require_once('server.php');
 // $dbpass = 'AVNS_jJhWlL5vZ0m1RBTPUMf';
 
 //PDO Database Configuration
-$dbhost = 'phpmyadmin503onubuntu2004-s-2vcpu-2gb-amd-nyc1-01';
+$dbhost = 'http://159.89.90.119/';
 $dbname = 'wavydawgs_waitlist';
 $dbuser = 'admin';
 $dbpass = '95e5532b2f9faabe790786fa0bf2b29ae8ddb0abc0ce7613';
