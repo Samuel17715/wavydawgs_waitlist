@@ -28,6 +28,7 @@ class serverProcessing {
 		}
 		catch (PDOException $e)
 		{
+			echo $e;
 			return false;
 		}
 	}
